@@ -38,9 +38,7 @@ public class MyMojo
      * @parameter expression="${project.build.directory}"
      * @required
      */
-    private File outputDirectory;
-    boolean var1;
-    public boolean var2;
+    private File outputDirectory; 
 
     public void execute()
         throws MojoExecutionException
